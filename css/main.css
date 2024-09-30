@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,80 +10,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 main {
-    background-color: white;
     width: 384px;
-    border-radius: 22px;
-    padding: 24px;
-    font-family: "Figtree", sans-serif;
-    position: relative;
+    padding: 16px;
+    background-color: white;
     border: solid 1px;
+    border-radius: 16px;
 }
 
-main::after {
-    background-color: black;
-    content: " ";
-    position: absolute;
-    height: 100%;
+.html-css-course {
     width: 100%;
-    border-radius: 24px;
-    right: -16px;
-    bottom: -16px;
-    z-index: -1;
 }
 
-.date {
-    font-weight: 500;
-}
-
-.learn {
-    display: flex;
+.category {
+    display: inline;
     background-color: #F4D04E;
-    width: 82px;
-    height: 29px;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
-    border-radius: 4px;
-
 }
 
-.desc {
-    color: #7F7F7F;
-    font-weight: 500;
-    font-size: 16px;
-}
+.profile-picture {
 
-.fondation {
-    margin-bottom: 16px;
-}
-
-.content p {
-    margin-bottom: 16px;
-    
-}
-
-main h1 {
-    font-size: 24px;
-    margin-bottom: 24px;
-}
-
-main h1:hover {
-    color: #F4D04E;
-    cursor: pointer;
-}
-
-.author p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 8px;
-    font-weight: 800;
-}
-
-.author {
-    display: flex;
-    margin-top: 24px;
 }
